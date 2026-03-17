@@ -88,7 +88,7 @@ module.exports = {
   parameters: {
       apikey: { type: "string" },
       postUrl: { type: "string" },
-      emoji: { type "string" }
+      emoji: { type: "string" }
      },  
   path: "/tools/react-channel",
 
