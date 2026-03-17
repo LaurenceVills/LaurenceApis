@@ -77,8 +77,12 @@ module.exports = [
   {
     name: "Jadi Anime",
     desc: "Convert to Anime Style",
-    category: "Tools",
-    path: "/tools/jadianime?apikey=&url=",
+    category: "Imagecreator",
+    parameters: {
+      apikey: { type: "string" },
+      url: { type: "string" }
+     },  
+    path: "/imagecreator/jadianime",
 
     async run(req, res) {
       const { url, apikey } = req.query;
